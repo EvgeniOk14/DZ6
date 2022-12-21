@@ -1,0 +1,14 @@
+﻿gitConsole.Write("Введите координату X1: ");
+int x1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату y1: ");
+int y1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату X2: ");
+int x2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату y2: ");
+int y2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату X3: ");
+int x3 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату y3: ");
+int y3 = Convert.ToInt32(Console.ReadLine());
+double s = (0.5 *((x2-x1) * (y3-y1) - (x3-x1) * (y2-y1))) *(-1);
+Console.WriteLine("Площадь треугольника равна: " + s);
